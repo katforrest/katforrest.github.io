@@ -21,11 +21,10 @@ author: Some Person
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
+  Projects:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-    - Digital Preservation: ""
-  Author's home: "https://deanattali.com"
+    - Digital Preservation: "https://katforrest.github.io/2020-01-01-digital_preservation/"
 
 ################
 # --- Logo --- #
@@ -51,13 +50,9 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
+  email: "kathleen.huang.forrest@gmail.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
+  github: katforrest
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
