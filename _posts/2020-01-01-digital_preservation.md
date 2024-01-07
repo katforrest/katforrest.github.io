@@ -7,6 +7,4 @@ Approaches to Digital Preservation: Re-examining the recovery of the Chora of Me
 **This report is a reflection of a digital archiving project done for the Institute of Classical Archeology at UT, using emulation as a tool to recover legacy file formats for long-term preservation and increased access.**
 
 
-![Preservation1](https://github.com/katforrest/katforrest.github.io/blob/master/assets/img/Preservation1.jpg)
-
-![Preservation1](assets/img/Preservation1.jpg)
+![Preservation1](https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Preservation1.jpg)
