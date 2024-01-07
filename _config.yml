@@ -13,7 +13,7 @@
 title: My Website
 
 # Your name to show in the footer
-author: Some Person
+author: Kathleen Forrest
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -22,8 +22,6 @@ author: Some Person
 navbar-links:
   About Me: "aboutme"
   Projects:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
     - Digital Preservation: "https://katforrest.github.io/2020-01-01-digital_preservation/"
 
 ################
