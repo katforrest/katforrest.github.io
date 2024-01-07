@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Machine Learning & Named Entity Recognition
-subtitle: Enhancing the Museum Data Ecosystem through Linking Research Publications to Museum Systems
+subtitle: Enhancing the Museum Data Ecosystem
 ---
 A 2022 LEADING Fellowship & Smithsonian Institution collaboration project. 
 
