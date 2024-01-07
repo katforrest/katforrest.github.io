@@ -8,3 +8,5 @@ Approaches to Digital Preservation: Re-examining the recovery of the Chora of Me
 
 
 ![Preservation1](https://github.com/katforrest/katforrest.github.io/blob/master/assets/img/Preservation1.jpg)
+
+![Preservation1](assets/img/Preservation1.jpg)
