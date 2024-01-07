@@ -1,9 +1,6 @@
 ---
-layout: post
+layout: minimal
 title: Digital Preservation
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
-tags: [test]
 author: Kathleen Forrest
 ---
 Approaches to Digital Preservation: Re-examining the recovery of the Chora of Metaponto: The Necropoleis Spring 2018 - Spring 2019
