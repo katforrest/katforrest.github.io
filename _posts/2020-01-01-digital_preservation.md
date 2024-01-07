@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: post
 title: Digital Preservation
 author: Kathleen Forrest
 ---
