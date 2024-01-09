@@ -13,3 +13,13 @@ In 1998, the Institute of Classical Archeology released a significant work, the 
 The discussion explores the methodology employed, shedding light on two distinct and occasionally conflicting approaches to digital archiving. One approach emphasizes the preservation of working files within their original context, treating them as evidentiary information. In contrast, the other approach focuses on preserving the intellectual content of the material by transitioning it into new formats. Analyzing the motivations behind these approaches and understanding their respective methods is crucial for archivists. This knowledge aids in clarifying goals and effectively allocating resources for similar projects in the future.
 
 ![Preservation1](https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Preservation1.jpg)
+
+![Preservation2](https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Preservation2.jpg)
+
+![Preservation3](https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Preservation3.jpg)
+
+![Preservation4](https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Preservation4.jpg)
+
+![Preservation5](https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Preservation5.jpg)
+
+![Preservation6](https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Preservation6.jpg)
