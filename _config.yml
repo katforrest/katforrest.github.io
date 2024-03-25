@@ -22,8 +22,9 @@ author: Kathleen Forrest
 navbar-links:
   About Me: "aboutme"
   Projects:
-    - Digital Preservation: "https://katforrest.github.io/2020-01-01-digital_preservation/"
     - Machine Learning & NER: "https://katforrest.github.io/2023-01-01-Specimens/"
+    - Classifications: "https://katforrest.github.io/2024-02-01-classifications/"
+    - Digital Preservation: "https://katforrest.github.io/2020-01-01-digital_preservation/"
 
 ################
 # --- Logo --- #
