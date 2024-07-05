@@ -11,7 +11,8 @@ To conduct this analysis, I downloaded data describing the dates, mediums, class
 
 [See the analysis on Tableau Public]([https://static1.squarespace.com/static/5c89631011f78455879eedb6/t/5d1505b5ef1f3900016b6931/1561658808353/Forrest_Approaches+to+Digital+Preservation.pdf](https://public.tableau.com/views/Dashboard1_17113896990380/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link))
 
-![Classifications_Sculpture](https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Classifications_Sculpture.png)
+![Classifications_All](https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Objects_by_Century_and_Classification.png)
+![Classifications](https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Objects_by_Century_and_Classification_1.png)
 
 ![Classifications_Drawings](https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Classifications_Drawings.png)
 
