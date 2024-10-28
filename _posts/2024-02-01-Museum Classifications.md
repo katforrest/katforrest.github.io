@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Museum Classification Analysis
-author: Kathleen Forrest
+subtitle: a Tableau project
 ---
 <div align="center">
   <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/lion.jpg" alt="Fig 1" width="50%">
