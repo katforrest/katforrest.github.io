@@ -3,6 +3,9 @@ layout: post
 title: Museum Classification Analysis
 author: Kathleen Forrest
 ---
+<div align="center">
+  <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/lion.jpg" alt="Fig 1" width="50%">
+</div>
 
 This research explores the collecting habits of museums through an analysis of the dates and classifications of objects in their collections. By investigating whether biases exist in what museums acquire and deem valuable, the study aims to uncover how these biases shape public perceptions of art historical significance. The graphs reveal patterns that correlate with material constraints, external trends in scholarship and market systems, and internalised bias. The research examines the effects of museum collecting policies in shaping their collections over time, and sheds light on the institutional impact on the evolution of artistic value and historical understanding.
 
