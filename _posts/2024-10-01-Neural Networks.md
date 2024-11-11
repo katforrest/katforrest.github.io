@@ -37,7 +37,7 @@ On the other hand, this wine quality data[^2] yielded much less satisfying resul
 <br><br>
 My first model is a binary classification model, or a logistic regression model. For this model, I picked an arbitrary quality score to use as the threshold value for a binary classification. Everything with a score of 6 or above is considered a "Quality Wine" or “1”. I updated the dataset to reflect this criteria and trained the model to distinguish between a "quality wine" and a "not quality wine."
 <div align="center">
-  <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Neural_Logistic_wine_1.jpg" alt="Fig 5" width="70%">
+  <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Neural_Logistic_wine_1.jpg" alt="Fig 5" width="90%">
 </div>
 A quick visualization of the first four features shows us no clear correlations between the feature characteristics and the target 0 or 1 values. 
 <div align="center">
