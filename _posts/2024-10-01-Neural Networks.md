@@ -3,7 +3,7 @@ layout: post
 title: Neural Network Modeling
 ---
 
-As part of my coursework in Advanced Learning Algoriths with Stanford Online, I experimented with different types of neural network models using tensorflow.  
+As part of my coursework in Advanced Learning Algorithms with Stanford Online, I experimented with different types of neural network models using tensorflow.  
 
 My code and the dataset are available on [GitHub](https://github.com/katforrest/Statistics-Fundamentals/tree/main/Neural%20Networks).
 
