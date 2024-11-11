@@ -5,7 +5,7 @@ title: Neural Network Modeling
 
 As part of my coursework in Advanced Learning Algoriths with Stanford Online, I experimented with different types of neural network models using tensorflow.  
 
-My code and the dataset are available on [GitHub](https://github.com/katforrest/Statistics-Fundamentals).
+My code and the dataset are available on [GitHub](https://github.com/katforrest/Statistics-Fundamentals/tree/main/Neural%20Networks).
 
 This iris[^1] dataset is great for experimentation. This dataset classifies observations into one of three species of iris based on four features. Here is a quick visualization of the four features in this data. Clear patterns are immediately visible.
 <div align="center">
