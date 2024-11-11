@@ -45,9 +45,9 @@ A quick visualization of the first four features shows us no clear correlations 
 </div>
 I've tested this dataset before using a simple logistic regression model with a gradient descent algorithm that I implemented from scratch. The results were largely inaccurate. This older model had an F1 score of 33%.
 <div align="center">
-  <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Neural_Simple_wine_1.jpg" alt="Fig 7" width="50%">
+  <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Neural_Simple_wine_1.jpg" alt="Fig 7" width="60%">
 </div>
-I hoped that a neural network using tensorflow would help solve the complexity in this data and perform much better. With so many features, I started with four layers in this model. The first three use a relu activation type, and the output layer has a sigmoid activation. I arrived at this configuration with a lot of testing and adjustments. 
+I hoped that a neural network model would help solve the complexity in this data and perform much better. With so many features, I started with four layers. The first three use a relu activation type, and the output layer has a sigmoid activation. I arrived at this configuration with a lot of testing and adjustments. 
 <br>
 When training the model, the starting loss value was .6993. After 620 training epochs, the lowest loss value was .3979, which resulted in an F1 score of 71%. After 840 training epochs, the loss value was 0.3597, which resulted in an F1 score of 73%. At this point, it seemed like further adjustments to the model in terms of layers, neurons, training epochs or batch size was giving me diminishing returns. But 73% is still considerably better than my previous model that did not use a neural network, which had an F1 score of 33%. 
 <br>
@@ -59,7 +59,7 @@ In this side by side comparison of the prediction to the validation data, it loo
 
 The confusion matrix shows us the exact number of false positives, false negatives, and accurate predictions.
 <div align="center">
-  <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Neural_Logistic_wine_4.jpg" alt="Fig 9" width="50%">
+  <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Neural_Logistic_wine_4.jpg" alt="Fig 9" width="60%">
 </div>
 
 I also created a linear regression neural network model using the same wine quality dataset for comparison. I tried to control for the differences between the two as much as possible by using the same number of layers and neurons in both models. In my earlier model, I classified everything with a quality score of 6 or above as a "quality wine" or “1”. For this model, I left the quality score as is. Each wine in the dataset has a score on a scale of 1 - 10, with 10 being best quality. 
@@ -80,7 +80,7 @@ For this model, I needed new ways to visualize my results and compare them with 
 
 A confusion matrix gives us much more information. We can see here that the data is highly imbalanced. The majority of observations have a quality score of either 5 or 6. Still, I was pleased to find that even when the prediction was incorrect, the score it assigned was only one point away from the actual value. It predicted a 6 for a wine that was actually a 5, for instance.
 <div align="center">
-  <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Neural_Linear_wine_4.jpg" alt="Fig 13" width="50%">
+  <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Neural_Linear_wine_4.jpg" alt="Fig 13" width="60%">
 </div>
 I concluded that the F1 score and the other elements in the scikit-learn classification report were not the best methods for comparing the performance of my two models. While the logistic model results have more instances of accuracy, the linear model results still capture the general patterns in the data effectively. This is evident from the confusion matrix, where even incorrect predictions remained close to the true value, indicating a strong alignment with the overall pattern in the data.
 <br>
