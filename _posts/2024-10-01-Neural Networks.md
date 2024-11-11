@@ -49,7 +49,7 @@ I've tested this dataset before using a simple logistic regression model with a 
 </div>
 I hoped that a neural network model would help solve the complexity in this data and perform much better. With so many features, I started with four layers. The first three use a relu activation type, and the output layer has a sigmoid activation. I arrived at this configuration with a lot of testing and adjustments. 
 <br><br>
-When training the model, the starting loss value was .6993. After 620 training epochs, the lowest loss value was .3979, which resulted in an F1 score of 71%. After 840 training epochs, the loss value was 0.3597, which resulted in an F1 score of 73%. At this point, it seemed like further adjustments to the model in terms of layers, neurons, training epochs or batch size was giving me diminishing returns. But 73% is still considerably better than my previous model that did not use a neural network, which had an F1 score of 33%. 
+During training, the model started with a loss value of 0.6993. After 620 epochs, the loss dropped to 0.3979, reaching an F1 score of 71%. By 840 epochs, the loss had further decreased to 0.3597, with an improved F1 score of 73%. At this point, tweaking the model—whether through adjusting layers, neurons, epochs, or batch size—seemed to yield diminishing returns. Still, an F1 score of 73% is a significant improvement over my previous non-neural network model, which only achieved an F1 score of 33%. 
 <br><br>
 In this side by side comparison of the prediction to the validation data, it looks like the model performed reasonably well. 
 
@@ -62,16 +62,16 @@ The confusion matrix shows us the exact number of false positives, false negativ
   <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Neural_Logistic_wine_4.jpg" alt="Fig 9" width="60%">
 </div>
 
-I also created a linear regression neural network model using the same wine quality dataset for comparison. I tried to control for the differences between the two as much as possible by using the same number of layers and neurons in both models. In my earlier model, I classified everything with a quality score of 6 or above as a "quality wine" or “1”. For this model, I left the quality score as is. Each wine in the dataset has a score on a scale of 1 - 10, with 10 being best quality. 
-
-Here is a visualization of the different features and the corresponding quality score. While there are some patterns, there still isn’t any obvious linear separability between different quality scores.
+I also created a linear regression neural network model using the same wine quality dataset for comparison. I chose a linear model since the quality scores fall along a continuous range.  I tried to control for the differences between the two as much as possible by using the same number of layers and neurons in both models. In my earlier model, I classified wines with a quality score of 6 or above as 'quality wines' (or '1'). For this model, however, I kept the original quality score. Each wine in the dataset is rated on a scale from 1 to 10, with 10 representing the highest quality.
+<br><br>
+Here is a visualization of the different features and the corresponding quality scores. While there are some patterns, there isn’t any obvious linear separability between different quality scores.
 <div align="center">
   <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Neural_Linear_wine_1.jpg" alt="Fig 10" width="90%">
 </div>
 <div align="center">
   <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Neural_Linear_wine_2.jpg" alt="Fig 11" width="90%">
 </div>
-I made several adjustments here to optimize performance. But the results were disappointing. The loss value started to decrease at a much slower rate very quickly. I ran nearly 2,000 training epochs, and only achieved an F1 score of 57% on the validation data.
+I made several adjustments to optimize performance, but the results were underwhelming. The loss value started decreasing more slowly almost immediately. After nearly 2,000 training epochs, the model only reached an F1 score of 57% on the validation data.
 <br><br>
 For this model, I needed new ways to visualize my results and compare them with the actual observations. I tried plotting the real and predicted values for each feature, as seen here. The darker red values represent the predictions. But the results are not very clear. 
 <div align="center">
