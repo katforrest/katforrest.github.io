@@ -3,7 +3,7 @@ layout: post
 title: Simple Linear Regression Model
 ---
 <div align="center">
-  <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Linear Regression Screenshot.png" alt="Fig 1" width="90%">
+  <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Linear Regression Screenshot.png" alt="Fig 1" width="100%">
 </div>
 
 As part of my coursework in Supervised Machine Learning with Stanford Online, I developed a simple linear regression model in Python to predict housing prices. 
