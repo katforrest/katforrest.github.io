@@ -7,7 +7,7 @@ title: Simple Linear Regression Model
 </div>
 
 As part of my coursework in Supervised Machine Learning with Stanford Online, I developed a simple linear regression model in Python to predict housing prices. 
-In this example, I used an opensource dataset from Kaggle, but the code should work with any dataset with multiple features. The model learned to estimate home costs based on features such as square footage, number of bedrooms, floors, and house age.
+In this example, I used an opensource dataset from Kaggle, but the code is adaptable and will work on similar datasets with multiple features. The model learned to estimate home costs based on features such as square footage, number of bedrooms, floors, and house age.
 
 My code and the dataset are available on [GitHub](https://github.com/katforrest/Statistics-Fundamentals).
 
