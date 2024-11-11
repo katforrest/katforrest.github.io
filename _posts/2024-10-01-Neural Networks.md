@@ -9,7 +9,7 @@ My code and the dataset are available on [GitHub](https://github.com/katforrest/
 
 This iris[^1] dataset is great for experimentation. This dataset classifies observations into one of three species of iris based on four features. Here is a quick visualization of the four features in this data. Clear patterns are immediately visible.
 <div align="center">
-  <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Neural_Multi_iris_1.jpg" alt="Fig 1" width="80%">
+  <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Neural_Multi_iris_1.jpg" alt="Fig 1" width="90%">
 </div>
 Before I start modeling, I like to visualize my data by plotting just the first two features on an x y coordinate graph, using different shapes to represent the different classes. While this doesn’t give me a complete picture, it does allow me to quickly see if there are clear linear boundaries between classes. Both visualizations tell me that there are clear and strong correlations between the features and the target classifications. 
 <div align="center">
@@ -41,7 +41,7 @@ My first model is a binary classification model, or a logistic regression model.
 </div>
 A quick visualization of the first four features shows us no clear correlations between the feature characteristics and the target 0 or 1 values. 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Neural_Logistic_wine_2.jpg" alt="Fig 6" width="70%">
+  <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Neural_Logistic_wine_2.jpg" alt="Fig 6" width="90%">
 </div>
 I've tested this dataset before using a simple logistic regression model with a gradient descent algorithm that I implemented from scratch. The results were largely inaccurate. This older model had an F1 score of 33%.
 <div align="center">
@@ -66,16 +66,16 @@ I also created a linear regression neural network model using the same wine qual
 
 Here is a visualization of the different features and the corresponding quality score. While there are some patterns, there still isn’t any obvious linear separability between different quality scores.
 <div align="center">
-  <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Neural_Linear_wine_1.jpg" alt="Fig 10" width="70%">
+  <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Neural_Linear_wine_1.jpg" alt="Fig 10" width="90%">
 </div>
 <div align="center">
-  <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Neural_Linear_wine_2.jpg" alt="Fig 11" width="70%">
+  <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Neural_Linear_wine_2.jpg" alt="Fig 11" width="90%">
 </div>
 I made several adjustments here to optimize performance. But the results were disappointing. The loss value started to decrease at a much slower rate very quickly. I ran nearly 2,000 training epochs, and only achieved an F1 score of 57% on the validation data.
 <br><br>
 For this model, I needed new ways to visualize my results and compare them with the actual observations. I tried plotting the real and predicted values for each feature, as seen here. The darker red values represent the predictions. But the results are not very clear. 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Neural_Linear_wine_3.jpg" alt="Fig 12" width="70%">
+  <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Neural_Linear_wine_3.jpg" alt="Fig 12" width="90%">
 </div>
 
 A confusion matrix gives us much more information. We can see here that the data is highly imbalanced. The majority of observations have a quality score of either 5 or 6. Still, I was pleased to find that even when the prediction was incorrect, the score it assigned was only one point away from the actual value. It predicted a 6 for a wine that was actually a 5, for instance.
