@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Digital Preservation
-author: Kathleen Forrest
 ---
 Approaches to Digital Preservation: Re-examining the recovery of the Chora of Metaponto: The Necropoleis Spring 2018 - Spring 2019
 
