@@ -7,7 +7,7 @@ As part of my coursework in Advanced Learning Algoriths with Stanford Online, I 
 
 My code and the dataset are available on [GitHub](https://github.com/katforrest/Statistics-Fundamentals).
 
-The iris dataset is great for experimentation. This dataset classifies observations into one of three species of iris based on four features. Here is a quick visualization of the four features in this data. Clear patterns are immediately visible.
+This iris[^1] dataset is great for experimentation. This dataset classifies observations into one of three species of iris based on four features. Here is a quick visualization of the four features in this data. Clear patterns are immediately visible.
 <div align="center">
   <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Neural_Multi_iris_1.jpg" alt="Fig 1" width="80%">
 </div>
@@ -29,3 +29,5 @@ I also plot a confusion matrix, using the scikit-learn library, to visualize my 
 This model was immediately highly accurate; it achieved an F1 score of 97% immediately, with no need for parameter adjustments to optimize the model.
 
 In my conclusions, I noted that the iris data is highly predictable. Despite being a small dataset (only 150 observations), it has strong, clear patterns with minimal noise. There are almost no outliers or anomalies. The classes are easily separated with a linear boundary, which is evident in my first two visualizations of the data. And there is little class imbalance; the three types of iris are pretty evenly represented. 
+
+[^1]: Fisher, R. A.. 1936. Iris. UCI Machine Learning Repository. https://doi.org/10.24432/C56C76.
