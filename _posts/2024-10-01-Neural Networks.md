@@ -27,14 +27,14 @@ I also plot a confusion matrix, using the scikit-learn library, to visualize my 
   <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Neural_Multi_iris_4.jpg" alt="Fig 4" width="60%">
 </div>
 This model was highly accurate; it achieved an F1 score of 97% immediately, with no need for parameter adjustments for optimization. 
-<br>
+<br><br>
 In my conclusions, I noted that the iris data is highly predictable. Despite being a small dataset (only 150 observations), it has strong, clear patterns with minimal noise. There are almost no outliers or anomalies. The classes are easily separated with a linear boundary, which is evident in my first two visualizations of the data. And there is little class imbalance; the three types of iris are pretty evenly represented. 
 <br><br>
 <div align="center">
 * * *
 </div>
 On the other hand, this wine quality data[^2] yielded much less satisfying results. This dataset of 1599 observations contains eleven features that each represent a different physicochemical attribute of red wines. Accuracy was challenging; there weren’t any clear patterns amongst the data. Additionally, the class imbalance is very high. Each observation is assigned a quality score on a scale of 1 - 10, but the majority of the wines fall in the 5 and 6 range.
-<br>
+<br><br>
 My first model is a binary classification model, or a logistic regression model. For this model, I picked an arbitrary quality score to use as the threshold value for a binary classification. Everything with a score of 6 or above is considered a "Quality Wine" or “1”. I updated the dataset to reflect this criteria and trained the model to distinguish between a "quality wine" and a "not quality wine."
 <div align="center">
   <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Neural_Logistic_wine_1.jpg" alt="Fig 5" width="70%">
@@ -48,9 +48,9 @@ I've tested this dataset before using a simple logistic regression model with a 
   <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Neural_Simple_wine_1.jpg" alt="Fig 7" width="60%">
 </div>
 I hoped that a neural network model would help solve the complexity in this data and perform much better. With so many features, I started with four layers. The first three use a relu activation type, and the output layer has a sigmoid activation. I arrived at this configuration with a lot of testing and adjustments. 
-<br>
+<br><br>
 When training the model, the starting loss value was .6993. After 620 training epochs, the lowest loss value was .3979, which resulted in an F1 score of 71%. After 840 training epochs, the loss value was 0.3597, which resulted in an F1 score of 73%. At this point, it seemed like further adjustments to the model in terms of layers, neurons, training epochs or batch size was giving me diminishing returns. But 73% is still considerably better than my previous model that did not use a neural network, which had an F1 score of 33%. 
-<br>
+<br><br>
 In this side by side comparison of the prediction to the validation data, it looks like the model performed reasonably well. 
 
 <div align="center">
@@ -72,7 +72,7 @@ Here is a visualization of the different features and the corresponding quality 
   <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Neural_Linear_wine_2.jpg" alt="Fig 11" width="70%">
 </div>
 I made several adjustments here to optimize performance. But the results were disappointing. The loss value started to decrease at a much slower rate very quickly. I ran nearly 2,000 training epochs, and only achieved an F1 score of 57% on the validation data.
-<br>
+<br><br>
 For this model, I needed new ways to visualize my results and compare them with the actual observations. I tried plotting the real and predicted values for each feature, as seen here. The darker red values represent the predictions. But the results are not very clear. 
 <div align="center">
   <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Neural_Linear_wine_3.jpg" alt="Fig 12" width="70%">
@@ -83,9 +83,9 @@ A confusion matrix gives us much more information. We can see here that the data
   <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Neural_Linear_wine_4.jpg" alt="Fig 13" width="60%">
 </div>
 I concluded that the F1 score and the other elements in the scikit-learn classification report were not the best methods for comparing the performance of my two models. While the logistic model results have more instances of accuracy, the linear model results still capture the general patterns in the data effectively. This is evident from the confusion matrix, where even incorrect predictions remained close to the true value, indicating a strong alignment with the overall pattern in the data.
-<br>
+<br><br>
 The logistic model is also more forgiving. With a binary threshold of 0.5, the logistic model only needs to assign values broadly above or below this point. The exact value isn’t as critical as it is in the linear models. This allows the model to achieve high “accuracy” with less precise predictions. 
-<br>
+<br><br>
 To normalize these differences, I converted the results of my linear regression model to a binary classification and ran the same metrics on the predictions. The resulting F1 score was identical in both models: 73%. The classification report below shows that there were only slight differences in precision and recall. Otherwise, the linear regression and binary classification performed equally well. 
 
 <div align="center">
@@ -94,8 +94,8 @@ To normalize these differences, I converted the results of my linear regression 
 <div align="center">
   <img src="https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Neural_Logistic_wine_5.jpg" alt="Fig 15" width="60%">
 </div>
-
-Overall, I’m pleased with the results from my experimentation. With these two datasets, I practiced implementing different types of neural networks. The differences in the types of regression and classification tasks led me to experiment with different visualizations and metrics for performance evaluation. I look forward to experimenting with new datasets and learning methods to further optimize classification and regression models. 
+<br><br>
+Overall, I’m pleased with the results from my experimentation. With these two datasets, I practiced implementing different types of statistical modeling with neural networks. The differences in the types of regression and classification tasks led me to experiment with different visualizations and metrics for performance evaluation. I look forward to experimenting with new datasets and learning methods to further optimize classification and regression models. 
 
 
 
