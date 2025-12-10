@@ -11,6 +11,6 @@ This research explores the collecting habits of museums through an analysis of t
 
 To conduct this analysis, I downloaded data describing the dates, mediums, classifications, and curatorial departments for 406,123 objects from the Metropolitan Museum's collection API. I cleaned the data in sql and created visualisations in Tableau. 
 
-[Interact with the data in Tableau]([https://public.tableau.com/shared/SQ9WZ2MFW?:display_count=n&:origin=viz_share_link](https://public.tableau.com/views/MuseumClassificationVisualizations_BackupCopy/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
+[Interact with the data in Tableau]([https://public.tableau.com/shared/SQ9WZ2MFW?:display_count=n&:origin=viz_share_link])
 
 ![Classifications](https://raw.githubusercontent.com/katforrest/katforrest.github.io/master/assets/img/Dashboard1.png)
